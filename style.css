@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  border-top: 5px solid #1098ad;
+}
+
+.container {
+  width: 700px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+  color: #1098ad;
+  margin-bottom: 30px;
+}
+
+.sec-main-header {
+  background-color: #f7f7f7;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+article header h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.article-header {
+  margin-bottom: 20px;
+}
+
+.article-img {
+  width: 100%;
+}
+
+.navbar a {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+ul,
+ol {
+  margin-left: 30px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+/* This is an example of psuedo class which I just don't know much about */
+li:first-child {
+  color: aquamarine;
+}
+
+li:last-child {
+  font-variant: small-caps;
+  margin-bottom: 0;
+}
+
+/* Another psuedo Class here that targets specific child */
+li:nth-child(2) {
+  font-style: italic;
+}
+
+/* Its gonna target even childs */
+/* li:nth-child(even) {
+  color: red;
+} */
+
+/* styling hyperlinks of ul */
+ul li a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+article {
+  margin-bottom: 50px;
+}
+
+aside {
+  width: 500px;
+  background-color: #f7f7f7;
+}
+.sec-aside {
+  border-top: 10px solid #1098ad;
+  border-bottom: 10px solid #1098ad;
+  padding: 50px 5px;
+}
+.aside-heading {
+  color: #1098ad;
+  font-family: sans-serif;
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.aside-ul {
+  list-style: none;
+}
